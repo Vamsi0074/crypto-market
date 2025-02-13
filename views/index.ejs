@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Market</title>
+    <link rel="stylesheet" href="/style/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Crypto Market</h1>
+    </header>
+
+    <main>
+        <h2>Bitcoin Price (BTC/USD)</h2>
+        <p><strong>Current Price:</strong>
+            <%= price %> USD
+        </p>
+        <p><strong>Time:</strong>
+            <%= time %>
+        </p>
+        <p><strong>Base:</strong>
+            <%= base %>
+        </p>
+        <p><strong>Currency:</strong>
+            <%= currency %>
+        </p>
+    </main>
+
+
+    <footer>
+        <p>&copy; <%= new Date().getFullYear() %> Crypto Market</p>
+    </footer>
+</body>
+
+</html>
